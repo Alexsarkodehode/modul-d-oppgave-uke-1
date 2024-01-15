@@ -1,28 +1,28 @@
-import './App.css'
+import './index.css'
+import IMAGES from './IMAGES/Images'
 
-function App() {
-  return (
-    <div className='app'>
-      <header className='navbar bg-primary text-secondary'>
-        <a href='/'>A blank slate</a>
-      </header>
 
-      <main className='main'>
-        <h1>A blank slate for you to use</h1>
-      </main>
-
-      <footer className='footer bg-primary text-secondary'>
-
-        <nav>
-          <ul>
-            <li><a href=""></a></li>
-          </ul>
-        </nav>
-
-        <p>Made by Kodehodet 2024</p>
-      </footer>
-    </div>
-  )
+function app(){
+return (
+  <>
+  <div>
+  <header>FishHub Gallery</header>
+  </div>
+  <div>
+  <main>
+    <p>Welcome to Fishhub. Here we display the most beautiful fish around the world</p>
+    <img src={IMAGES.fish1} alt='./src/IMAGES/fish1.jpg'/>
+    <img src={IMAGES.fish2} alt='./src/IMAGES/fish2.jpg"'/>
+    <img src={IMAGES.fish3} alt='.src//IMAGES/fish3.jpg'/>
+  </main>
+  </div>
+  <footer>
+    <p>adresse: Grand park avenue 73</p>
+    <p> email: fishHub@gmail.com</p>
+   
+  </footer>
+  </>
+)
 }
 
-export default App
+export default app; 
