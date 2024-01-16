@@ -1,6 +1,6 @@
 import './index.css'
 import './App.css'
-import  ImageInfo  from "./IMAGES/Images.json"
+import  ImageInfo  from "../public/IMAGES/Images.json"
 
 export default function App(){
   console.log(ImageInfo)
