@@ -1,6 +1,6 @@
 import './index.css'
 import './App.css'
-import  ImageInfo  from "../public/IMAGES/Images.json"
+import  ImageInfo  from "./assets/IMAGES/Images.json"
 import FishOne from "./assets/IMAGES/fish1.jpg"
 import FishTwo from "./assets/IMAGES/fish2.jpg"
 import FishThree from "./assets/IMAGES/fish3.jpg"
@@ -18,8 +18,8 @@ return (
   </div>
   <div className='mainCard'>
     <main>
-      <>CardOne</>
-      <>CardTwo</>
+      <>FirstCard</>
+      <>SecondCard</>
 
   </main>
   </div>
@@ -33,32 +33,32 @@ return (
 
 }
 
- function CardOne({ImageInfo}){
+ export default function FirstCard(){
   return (<>
-   <img src={ImageInfo[0].src} alt="" />
-    <p>{ImageInfo[0].text}</p>
+   <img src={FishOne} alt="" />
+    <p>{FishOne.text}</p>
 
-    <img src={ImageInfo[1].src} alt="" />
-    <p>{ImageInfo[1].text} test endring</p>
+    <img src={FishTwo} alt="" />
+    <p>{FishTwo.text}</p>
 
-    <img src={ImageInfo[2].src} alt="" />
-    <p>{ImageInfo[2].text} test 2</p> 
+    <img src={FishFour} alt="" />
+    <p>{FishFour.text}</p> 
     
     </>
     )
 }
 
-function CardTwo({ImageInfo}){
+export default function SecondCard(){
   return (<>
  
- <img src={ImageInfo[3].src} alt="" />
-    <p>{ImageInfo[3].text}</p>
+ <img src={FishFour} alt="" />
+    <p>{FishFour.text}</p>
 
-    <img src={ImageInfo[4].src} alt="" />
-    <p>{ImageInfo[4].text} test 3</p>
+    <img src={FishFive} alt="" />
+    <p>{FishFive.text} test 3</p>
 
-    <img src={ImageInfo[5].src} alt="" />
-    <p>{ImageInfo[5].text}</p>
+    <img src={FishSix} alt="" />
+    <p>{FishSix.text}</p>
     </>
     )
 }

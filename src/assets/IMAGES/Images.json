@@ -1,26 +1,26 @@
 [
     {
-        "src": "../public/IMAGES/fish1.jpg",
+        "src": "../assets/IMAGES/fish1.jpg",
         "text": "Siamese fighting fish"
     },
     { 
-        "src":"../public/IMAGES/fish2.jpg", 
+        "src":"../assets/IMAGES/fish2.jpg", 
         "text": "Betta fish" 
     },
     {
-        "src":"../public/IMAGES/fish3.jpg", 
+        "src":"../assets/IMAGES/fish3.jpg", 
         "text": "Discus fish" 
     },
     {
-        "src":"../public/IMAGES/fish4.jpg",
+        "src":"../assets/IMAGES/fish4.jpg",
         "text":"Clownfish"
     }, 
      {
-        "src":"../public/IMAGES/fish5.jpg", 
+        "src":"../assets/IMAGES/fish5.jpg", 
         "text": "blue tang"
     }, 
      {
-        "src":"../public/IMAGES/fish6.jpg", 
+        "src":"../assets/IMAGES/fish6.jpg", 
         "text": "Carrasius Auratus fish"
     }
 ] 
