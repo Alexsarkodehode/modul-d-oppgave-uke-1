@@ -38,4 +38,14 @@ return (
   </footer>
   </>
 )
+
+}
+
+ function CardOne({ImageInfo}){
+  return (<>
+   <img src={ImageInfo.src} alt="" />
+    <p>{ImageInfo.text}</p>  
+    
+    </>
+    )
 }
