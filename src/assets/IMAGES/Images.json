@@ -1,0 +1,26 @@
+[
+    {
+        "src": "../public/IMAGES/fish1.jpg",
+        "text": "Siamese fighting fish"
+    },
+    { 
+        "src":"../public/IMAGES/fish2.jpg", 
+        "text": "Betta fish" 
+    },
+    {
+        "src":"../public/IMAGES/fish3.jpg", 
+        "text": "fish3" 
+    },
+    {
+        "src":"../public/IMAGES/fish4.jpg",
+        "text":"Clownfish"
+    }, 
+     {
+        "src":"../public/IMAGES/fish5.jpg", 
+        "text": "fish5"
+    }, 
+     {
+        "src":"../public/IMAGES/fish6.jpg", 
+        "text": "fish6"
+    }
+] 

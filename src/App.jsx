@@ -1,6 +1,13 @@
 import './index.css'
 import './App.css'
 import  ImageInfo  from "../public/IMAGES/Images.json"
+import ImageInfo from "./assets/IMAGES/fish1.jpg"
+import ImageInfo from "./fish2.jpg"
+import ImageInfo from "./fish3.jpg"
+import ImageInfo from "./fish4.jpg"
+import ImageInfo from "./fish5.jpg"
+import ImageInfo from "./fish6.jpg"
+
 
 export default function App(){
   console.log(ImageInfo)
@@ -42,6 +49,15 @@ return (
 }
 
  function CardOne({ImageInfo}){
+  return (<>
+   <img src={ImageInfo.src} alt="" />
+    <p>{ImageInfo.text}</p>  
+    
+    </>
+    )
+}
+
+function CardTwo({ImageInfo}){
   return (<>
    <img src={ImageInfo.src} alt="" />
     <p>{ImageInfo.text}</p>  
