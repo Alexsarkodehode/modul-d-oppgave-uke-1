@@ -5,6 +5,7 @@
 }
 
 .mainCard{
+  display: flex;
 flex-direction: column
 }
 

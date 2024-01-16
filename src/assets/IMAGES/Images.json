@@ -9,7 +9,7 @@
     },
     {
         "src":"../public/IMAGES/fish3.jpg", 
-        "text": "fish3" 
+        "text": "Discus fish" 
     },
     {
         "src":"../public/IMAGES/fish4.jpg",
@@ -17,10 +17,10 @@
     }, 
      {
         "src":"../public/IMAGES/fish5.jpg", 
-        "text": "fish5"
+        "text": "blue tang"
     }, 
      {
         "src":"../public/IMAGES/fish6.jpg", 
-        "text": "fish6"
+        "text": "Carrasius Auratus fish"
     }
 ] 
