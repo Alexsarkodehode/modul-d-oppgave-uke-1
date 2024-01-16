@@ -1,5 +1,5 @@
 import './index.css'
-import './app.css'
+import './App.css'
 import  ImageInfo  from "./IMAGES/Images.json"
 
 export default function App(){
