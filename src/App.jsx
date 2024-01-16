@@ -14,12 +14,13 @@ export default function App(){
 return (
   <>
   <div className='gallery'>
-  <header>Acvarium Gallery</header>
+    < Header/>
+  < Navbar />
   </div>
   <div className='mainCard'>
     <main>
-      <>FirstCard</>
-      <>SecondCard</>
+      <FirstCard/>
+      <SecondCard/>
 
   </main>
   </div>
@@ -33,31 +34,57 @@ return (
 
 }
 
- export default function FirstCard(){
+function Header(){
+  return(
+    <div className='header'>
+      <h1>Acvarium Gallery</h1>
+    </div>
+  )
+}
+
+  function Navbar(){
+    return(
+      <div className='navbar'>
+        <div className='logo'>
+          <img src="" alt="" />
+          <h1>FishHub</h1>
+        </div>
+        <div className='menu'>
+          <ul>
+            <li><a href='#'>Home</a></li>
+            <li><a href='#'>About</a></li>
+            <li><a href='#'>Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    )
+  }
+
+  function FirstCard(){
   return (<>
-   <img src={FishOne} alt="" />
+   <img src={FishOne} />
     <p>{FishOne.text}</p>
 
-    <img src={FishTwo} alt="" />
+    <img src={FishTwo} />
     <p>{FishTwo.text}</p>
 
-    <img src={FishFour} alt="" />
+    <img src={FishThree} />
     <p>{FishFour.text}</p> 
     
     </>
     )
-}
+  }
 
-export default function SecondCard(){
+function SecondCard(){
   return (<>
  
- <img src={FishFour} alt="" />
+ <img src={FishFour} />
     <p>{FishFour.text}</p>
 
-    <img src={FishFive} alt="" />
-    <p>{FishFive.text} test 3</p>
+    <img src={FishFive} />
+    <p>{FishFive.text}</p>
 
-    <img src={FishSix} alt="" />
+    <img src={FishSix} />
     <p>{FishSix.text}</p>
     </>
     )
