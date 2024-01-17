@@ -1,13 +1,46 @@
-.gallery{
-  font-weight: bold;
-  font-size: x-large;
-  text-align: center;
+.Header{
+
 }
 
-.mainCard{
-  display: flex;
-flex-direction: column
+.Navbar{
+text-align: left;
+background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fsnl.no%2Fakvarium&psig=AOvVaw1xmqxCCVqOkZj5dSuXE-lv&ust=1705522383595000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKiu2fTc4oMDFQAAAAAdAAAAABAD);
 }
+
+.Logo{
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkkhaki;
+
+}
+
+img{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  width: 20rem;
+  height: 10rem;
+}
+
+.Menu{
+  text-align: right;
+}
+
+Main{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.Footer{
+text-align: center;
+}
+
 
 
 

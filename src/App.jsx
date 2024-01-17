@@ -13,22 +13,27 @@ export default function App(){
   console.log(ImageInfo)
 return (
   <>
-  <div className='gallery'>
+  <div className='Header'>
     < Header/>
+  </div>
+  <div className='Navbar'>
   < Navbar />
   </div>
-  <div className='mainCard'>
+  <div className='MainCard'>
     <main>
+      <div className='FirstCard'>
       <FirstCard/>
+      </div>
+      <div className='SecondCard'>
       <SecondCard/>
+      </div>
 
   </main>
   </div>
   
-  <footer className='footer'>
-    <p>adresse: Grand park avenue 73</p>
-    <p> email: fishHub@gmail.com</p>
-  </footer>
+  <div className='Footer'>
+  <Footer/>
+  </div>
   </>
 )
 
@@ -36,8 +41,8 @@ return (
 
 function Header(){
   return(
-    <div className='header'>
-      <h1>Acvarium Gallery</h1>
+    <div className='Header'>
+      <h1>Aquarium Gallery</h1>
     </div>
   )
 }
@@ -45,11 +50,11 @@ function Header(){
   function Navbar(){
     return(
       <div className='navbar'>
-        <div className='logo'>
+        <div className='Logo'>
           <img src="" alt="" />
           <h1>FishHub</h1>
         </div>
-        <div className='menu'>
+        <div className='Menu'>
           <ul>
             <li><a href='#'>Home</a></li>
             <li><a href='#'>About</a></li>
@@ -88,4 +93,16 @@ function SecondCard(){
     <p>{FishSix.text}</p>
     </>
     )
+}
+
+
+function Footer(){
+  return( <>
+
+      <h1>Contant Information</h1>
+      <h3>Street: Grand park avenue 73</h3>
+      <h3> Email: FishHub@gmail.com</h3>
+      <h3>Phone: +109823748246328</h3>
+  </>
+  )
 }
