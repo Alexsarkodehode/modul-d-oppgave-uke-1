@@ -1,7 +1,8 @@
 *{
   border: 0%;
-  margin: 0%;
+  margin: 1%;
   padding: 0%;
+  border-radius: 5%;
 }
 
 
@@ -12,11 +13,30 @@ ul{
   margin-bottom: 5%;
   padding: 0;
   overflow: hidden;
-  background-color: darkkhaki;
+  background-color: pink;
 
 }
+.MainCard{
+  display: grid;
+  grid-template-rows: 1fr, 1fr, 1fr;
+}
 
-img{
+.FirstCard{
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  height: 15rem; 
+  width: 25rem;
+  }
+
+  .SecondCard{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5%;
+    height: 15rem; 
+    width: 25rem;
+  }
+/* img{
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
@@ -26,7 +46,7 @@ img{
   border-radius: 5%;
   justify-content: center;
 }
-
+ */
 
 .Footer{
 text-align: center;
