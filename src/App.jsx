@@ -51,8 +51,7 @@ function Header(){
     return(
       <div className='navbar'>
         <div className='Logo'>
-          <img src="" alt="" />
-          <h1>FishHub</h1>
+        <h1>Fishhub</h1>
         </div>
         <div className='Menu'>
           <ul>
