@@ -1,20 +1,18 @@
-.Header{
-
+*{
+  border: 0%;
+  margin: 0%;
+  padding: 0%;
 }
 
-.Navbar{
-text-align: left;
-background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fsnl.no%2Fakvarium&psig=AOvVaw1xmqxCCVqOkZj5dSuXE-lv&ust=1705522383595000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKiu2fTc4oMDFQAAAAAdAAAAABAD);
-}
 
 
 ul{
+  max-width: 100%;
   list-style-type: none;
   margin-bottom: 5%;
   padding: 0;
   overflow: hidden;
   background-color: darkkhaki;
-  
 
 }
 
@@ -26,15 +24,7 @@ img{
   height: 10rem;
   margin-top: auto;
   border-radius: 5%;
-}
-
-.Menu{
-  text-align: right;
-}
-
-Main{
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
 
@@ -58,28 +48,3 @@ text-align: center;
 
 
 
-
-
-
-/* * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-a {
-  color: inherit;
-  text-decoration: inherit;
-}
-
-:root {
-  --color-primary: rgb(112, 0, 52);
-  --color-secondary: rgb(248, 228, 191);
-}
-
-.bg-primary {background-color: var(--color-primary);}
-.text-primary {color: var(--color-primary);}
-
-.bg-secondary {background-color: var(--color-secondary);}
-.text-secondary {color: var(--color-secondary);}
- */
